@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+label{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+form{
+   padding: 0%;
+   margin: 0%;
+
+}   	
+
+
+a{
+    text-decoration: none;
+}
+
+.users-form form{
+    display: flex;
+    flex-direction: column;
+    
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.users-form form input{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.users-form form input[type=text],
+.users-form form input[type=password],
+.users-form form input[type=email]{
+    padding: 8px;
+    border:2px solid #aaa;
+    border-radius:4px;
+    outline:none;
+    transition:.3s;
+}
+
+.users-form form input[type=text]:focus,
+.users-form form input[type=password]:focus,
+.users-form form input[type=password]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 6px 0 dodgerBlue;
+}
+
+select{
+    padding: 8px;
+    border:2px solid #aaa;
+    border-radius:4px;
+    outline:none;
+    transition:.3s;
+}
+
+.users-form form input[type=submit]{
+    border: none;
+    padding: 12px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #60a100;
+    margin-top: 20px;
+}
+
+.users-form form input[type=submit]:hover {
+    background-color: #60a100;
+    color: white;
+}
+
+.users-table table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+
+.users-table--edit{
+    background: #009688;
+    padding: 8px 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.users-table--edit:hover{
+    background-color: #db0da8;
+    color: black;
+   
+}
+
+
+.users-table--delete{
+    background: #b11e1e;
+    padding: 8px 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 0;
+    
+}
+
+.users-table--delete:hover{
+    background-color: #db0da8;
+    color: black;
+    
+}
+
+.btn-export{
+    padding: 8px 16px;
+    background-color: #60a100;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.btn-export:hover{
+    background-color: #f50c0c;
+    color:black;
+    
+}
+
+.btn-export-xls{
+    background-color: #2347e6;
+    
+}
+
+.table-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-back{
+    padding: 12px 50px;
+    background-color: white;
+    color: #080707;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 2px solid #087cc9;
+}
+
+.btn-back:hover{
+    background-color: #087cc9;
+    color: white;
+    
+}
